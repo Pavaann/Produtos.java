@@ -17,7 +17,7 @@ public class Product {
     public String toString(){
         return name
                 + ", $ "
-                + String.format("%.3f", price)
+                + String.format("%.2f", price)
                 + ", "
                 + quantity
                 + " units, Total: $ "
