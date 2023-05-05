@@ -24,5 +24,8 @@ public class Product {
                 + totalValueInStock();
 
     }
+
+    public void addProducts(int quantity) {
+    }
 }
 

@@ -18,6 +18,14 @@ public class Main {
         product.quantity = sc.nextInt();
 
         System.out.println(product);
+        System.out.println();
+        System.out.print("Enter the number of products to be added in stock: ");
+        int quantity = sc.nextInt();
+        product.addProducts(quantity);
+
+        System.out.println();
+        System.out.println("Update data: " + product);
+
 
 
         sc.close();
